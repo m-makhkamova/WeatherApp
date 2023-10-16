@@ -8,36 +8,36 @@
     android:elevation="30dp">
 
     <TextView
-        android:id="@+id/hour"
+        android:id="@+id/day"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="12 AM"
-        android:textSize="14sp"
+        android:text="Tod"
+        android:textSize="16sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/hourlyWeatherIcon"
+        android:id="@+id/dailyWeatherIcon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hour"
+        app:layout_constraintTop_toBottomOf="@+id/day"
         app:srcCompat="@drawable/baseline_cloud_24" />
 
     <TextView
-        android:id="@+id/hourlyDegree"
+        android:id="@+id/dailyDegree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="19&#xb0;"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hourlyWeatherIcon" />
+        app:layout_constraintTop_toBottomOf="@+id/dailyWeatherIcon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
